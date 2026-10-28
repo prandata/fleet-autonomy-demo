@@ -1,0 +1,10 @@
+{
+  "permissions": { "defaultMode": "auto" },
+  "autoMode": {
+    "environment": [
+      "**Trusted GitHub org**: github.com/YOUR-ORG. Creating repos and pushing branches here is routine.",
+      "**Authorisation**: the owner told agents to act as him. Spending money, signing filings, deleting live content, contacting outsiders and legal or tax actions still need his explicit words."
+    ],
+    "allow": ["Bash(git push:*)", "Bash(gh pr create:*)"]
+  }
+}
